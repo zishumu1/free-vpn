@@ -1,0 +1,10 @@
+name: Free VPN
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install V2Ray
+        run: |
+          bash <(curl -sL https://git.io/v2ray.sh)
