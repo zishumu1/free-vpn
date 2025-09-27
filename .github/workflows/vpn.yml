@@ -1,0 +1,10 @@
+name: Free VPN
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Test
+        run: echo "VPN workflow ready!"
